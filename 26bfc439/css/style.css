@@ -1,0 +1,39 @@
+/* Shared custom styles that sit on top of Tailwind. */
+
+/* Keyboard focus: bright cyan ring so people tabbing through the page
+   can always see which button or link is selected. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #4cd7f6;
+  outline-offset: 2px;
+}
+
+/* Skip link: hidden until you press Tab, then it jumps you past the header. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: #7c3aed;
+  color: #ffffff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0 0 0.75rem 0;
+  font-weight: 700;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+/* Respect visitors who prefer less motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

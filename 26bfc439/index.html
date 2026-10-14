@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta name="description" content="LUKA LIVE: The Starlight World Tour 2025 — 48 stadium arenas, family-friendly pop euphoria. Register for tickets with instant QR email delivery."/>
+  <title>LUKA LIVE — Home &amp; Artist | The Starlight Tour</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/tailwind-home.css" rel="stylesheet"/>
+</head>
+<body class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-2xl shadow-[0_8px_32px_-4px_rgba(124,58,237,0.35)]">
+    <div class="bg-gradient-to-r from-primary-container via-secondary-container to-tertiary-container py-space-xs px-margin">
+      <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-space-sm text-center py-0.5">
+        <span class="material-symbols-outlined text-tertiary text-[18px] animate-pulse">bolt</span>
+        <span class="font-label-md text-label-md text-on-surface tracking-wide uppercase">Digital Email Delivery: Instant e-Tickets sent directly to your inbox with QR gate pass!</span>
+        <span class="material-symbols-outlined text-secondary text-[18px] animate-pulse hidden sm:inline">confirmation_number</span>
+      </div>
+    </div>
+    <div class="relative h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-space-md">
+      <a class="flex items-center gap-space-sm group shrink-0" href="index.html" aria-label="LUKA LIVE — back to home">
+        <img alt="LUKA LIVE neon tour logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="images/logo.jpg"/>
+        <div class="flex flex-col">
+          <span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none group-hover:text-primary transition-colors">LUKA LIVE</span>
+          <span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest leading-none mt-1">The Starlight Tour</span>
+        </div>
+      </a>
+      <nav class="hidden lg:flex items-center gap-space-xs bg-surface-container-low/90 p-space-xs rounded-full" aria-label="Main navigation">
+        <a class="px-space-md py-space-sm rounded-full font-label-lg text-label-lg bg-primary-container text-on-primary-container font-bold shadow-[0_0_20px_rgba(124,58,237,0.4)]" aria-current="page" href="index.html">Home &amp; Artist</a>
+        <a class="px-space-md py-space-sm rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" href="tickets.html">Get Tickets (Live)</a>
+        <a class="px-space-md py-space-sm rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" href="contact.html">Contact &amp; Support</a>
+      </nav>
+      <div class="flex items-center gap-space-sm">
+        <div class="hidden sm:flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-full shadow-[0_0_16px_rgba(255,176,205,0.2)]">
+          <span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+          <span class="font-label-md text-label-md text-secondary font-bold tracking-wider">Next Drop in 02d 14h!</span>
+        </div>
+        <button id="arena-audio-btn" class="hidden md:flex items-center gap-space-xs bg-surface-container-high hover:bg-surface-container-highest px-space-md py-space-xs rounded-full text-tertiary transition-all" type="button" aria-pressed="false" aria-label="Toggle arena audio">
+          <span class="material-symbols-outlined text-[18px]">volume_up</span>
+          <span class="hidden md:inline font-label-caps text-label-caps uppercase tracking-wider text-on-surface">Arena Audio</span>
+        </button>
+        <img alt="Fan profile avatar" class="hidden sm:block w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/80" src="images/profile.jpg"/>
+        <button id="menu-btn" class="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-surface-container-high text-on-surface" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">
+          <span class="material-symbols-outlined text-[22px]">menu</span>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 right-0 bg-surface-container-lowest/95 backdrop-blur-2xl border-t border-outline-variant/20 shadow-2xl">
+      <nav class="flex flex-col gap-1 p-4 max-w-7xl mx-auto" aria-label="Mobile navigation">
+        <a class="px-space-md py-3 rounded-full font-label-lg text-label-lg bg-primary-container text-on-primary-container font-bold text-center" aria-current="page" href="index.html">Home &amp; Artist</a>
+        <a class="px-space-md py-3 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container text-center transition-all" href="tickets.html">Get Tickets (Live)</a>
+        <a class="px-space-md py-3 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container text-center transition-all" href="contact.html">Contact &amp; Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="w-full pt-[7.25rem] bg-background min-h-screen" id="main-content">
+    <div class="flex flex-col w-full">
+
+      <!-- Hero -->
+      <section class="relative w-full overflow-hidden -mt-14 pt-28 pb-20 px-6 lg:px-12 flex flex-col justify-center min-h-[942px]">
+        <div class="absolute -top-32 -left-20 w-[550px] h-[550px] rounded-full bg-primary-container/20 blur-[130px] pointer-events-none"></div>
+        <div class="absolute top-1/4 -right-24 w-[600px] h-[600px] rounded-full bg-secondary-container/25 blur-[150px] pointer-events-none"></div>
+        <div class="absolute bottom-10 left-1/3 w-[450px] h-[450px] rounded-full bg-tertiary-container/20 blur-[120px] pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+          <div class="lg:col-span-7 flex flex-col gap-6 items-start">
+            <div class="flex flex-wrap items-center gap-2.5">
+              <div class="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-surface-container-high shadow-md shadow-primary-container/20">
+                <span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+                <span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">3x Platinum Artist</span>
+              </div>
+              <div class="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-surface-container-high shadow-md shadow-tertiary/20">
+                <span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span>
+                <span class="font-label-caps text-label-caps uppercase tracking-wider text-tertiary">#1 Global Pop Idol</span>
+              </div>
+              <div class="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-surface-container-high">
+                <span class="material-symbols-outlined text-primary text-[18px]">family_restroom</span>
+                <span class="font-label-caps text-label-caps uppercase tracking-wider text-primary">All Ages &amp; Families Welcome</span>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-headline-sm text-tertiary tracking-widest uppercase">The Celestial Pop Sensation</span>
+              <h1 class="font-display-hero text-display-hero-mobile lg:text-display-hero text-on-surface tracking-tight leading-[1.05] mt-2">
+                THE STARLIGHT <br/>
+                <span class="bg-gradient-to-r from-primary via-secondary to-tertiary bg-clip-text text-transparent">WORLD TOUR 2025</span>
+              </h1>
+            </div>
+            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+              Get ready for a euphoric stadium spectacle by Luka Sky! Experience high-octane neon choreography, soaring sing-along anthems, synchronized LED wristbands, and boundless positive energy across 48 global cities.
+            </p>
+            <div class="flex flex-wrap items-center gap-4 pt-2">
+              <a class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-primary-container via-secondary-container to-secondary text-on-primary-container font-label-lg text-label-lg tracking-wide uppercase shadow-[0_0_32px_rgba(236,72,153,0.5)] hover:scale-105 transition-transform duration-300" href="tickets.html">
+                <span class="material-symbols-outlined text-[20px]">confirmation_number</span>
+                <span>Register For Tickets</span>
+              </a>
+              <a class="inline-flex items-center gap-2.5 px-7 py-4 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-tertiary font-label-lg text-label-lg shadow-md transition-all" href="#tracklist">
+                <span class="material-symbols-outlined text-[20px]">headphones</span>
+                <span>Listen To Top Tracks</span>
+              </a>
+            </div>
+            <div class="grid grid-cols-3 gap-4 sm:gap-6 pt-4 w-full max-w-lg">
+              <div class="flex flex-col bg-surface-container-low/80 backdrop-blur-md p-3 sm:p-4 rounded-2xl shadow-sm">
+                <span class="font-headline-md text-headline-md text-primary font-bold">1.2B+</span>
+                <span class="font-label-md text-label-md text-on-surface-variant uppercase">Global Streams</span>
+              </div>
+              <div class="flex flex-col bg-surface-container-low/80 backdrop-blur-md p-3 sm:p-4 rounded-2xl shadow-sm">
+                <span class="font-headline-md text-headline-md text-secondary font-bold">48</span>
+                <span class="font-label-md text-label-md text-on-surface-variant uppercase">Stadium Arenas</span>
+              </div>
+              <div class="flex flex-col bg-surface-container-low/80 backdrop-blur-md p-3 sm:p-4 rounded-2xl shadow-sm">
+                <span class="font-headline-md text-headline-md text-tertiary font-bold">100%</span>
+                <span class="font-label-md text-label-md text-on-surface-variant uppercase">Family Friendly</span>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-5 flex flex-col items-center relative">
+            <div class="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_16px_50px_rgba(124,58,237,0.35)] bg-surface-container">
+              <img class="w-full h-full object-cover" alt="Luka Sky performing on a grand stadium stage lit by electric violet, cyan and neon pink spotlights while confetti falls over fans waving glowing wristbands" src="images/hero-luka.jpg"/>
+              <div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/85 backdrop-blur-xl p-4 rounded-2xl flex items-center justify-between shadow-lg">
+                <div class="flex items-center gap-3">
+                  <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-secondary-container to-tertiary-container flex items-center justify-center text-on-primary">
+                    <span class="material-symbols-outlined text-[26px]">star</span>
+                  </div>
+                  <div class="flex flex-col">
+                    <span class="font-title-lg text-title-lg text-on-surface leading-tight">Luka Sky</span>
+                    <span class="font-label-md text-label-md text-secondary">Live Arena Soundcheck Ready</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-1 text-tertiary">
+                  <span class="w-1.5 h-4 bg-tertiary rounded-full animate-bounce"></span>
+                  <span class="w-1.5 h-6 bg-secondary rounded-full animate-bounce [animation-delay:150ms]"></span>
+                  <span class="w-1.5 h-3 bg-primary rounded-full animate-bounce [animation-delay:300ms]"></span>
+                </div>
+              </div>
+            </div>
+            <div class="absolute -bottom-6 -left-6 hidden sm:flex items-center gap-3 bg-surface-container-high/95 backdrop-blur-xl px-5 py-3 rounded-full shadow-[0_10px_30px_rgba(236,72,153,0.3)]">
+              <span class="material-symbols-outlined text-secondary text-[24px]">electric_bolt</span>
+              <span class="font-label-lg text-label-lg text-on-surface">Tour Pass Delivery in Seconds!</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Meet Luka Sky -->
+      <section class="w-full py-20 px-6 lg:px-12 bg-surface-container-lowest relative overflow-hidden">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-5 relative">
+            <div class="rounded-3xl overflow-hidden aspect-square bg-surface-container shadow-2xl relative">
+              <img class="w-full h-full object-cover" alt="Luka Sky laughing during a backstage rehearsal with an acoustic guitar, surrounded by colorful pastel neon stage lighting" src="images/about-luka.jpg"/>
+              <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+            </div>
+            <div class="absolute -bottom-6 -right-4 sm:right-6 bg-surface-container-high/90 backdrop-blur-lg p-5 rounded-2xl shadow-[0_12px_40px_rgba(0,113,132,0.35)] max-w-xs flex items-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-tertiary-container flex items-center justify-center shrink-0 text-on-tertiary">
+                <span class="material-symbols-outlined text-[24px]">favorite</span>
+              </div>
+              <div class="flex flex-col">
+                <span class="font-title-lg text-title-lg text-on-surface leading-tight">Joy, Hope &amp; Kindness</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">Every beat fuels self-love and unity for all ages.</span>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-7 flex flex-col gap-6 lg:pl-6">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-secondary text-[20px]">music_note</span>
+              <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">The Musical Journey</span>
+            </div>
+            <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface">
+              Pure Pop Euphoria That <br/>
+              <span class="text-tertiary">Brings Every Generation Together</span>
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              From posting bedroom acoustic covers on social channels to commanding world-renowned arenas, Luka Sky has reshaped contemporary pop music. His trademark sound marries shimmering synthwave hooks, heart-thumping drum grooves, and uplifting lyricism celebrating individuality, mental wellness, and togetherness.
+            </p>
+            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Young fans, parents, and pop music enthusiasts unite under one roof to sing each line at full volume. Luka’s live concerts aren’t just performances—they are vibrant sanctuaries of self-expression where glowsticks turn strangers into an interconnected galaxy of light.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+              <div class="p-4 rounded-2xl bg-surface-container-low flex flex-col gap-2">
+                <span class="material-symbols-outlined text-secondary text-[28px]">sentiment_very_satisfied</span>
+                <span class="font-title-lg text-title-lg text-on-surface">Pure Positivity</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">Zero-cynicism lyrics and uplifting choruses made for smiling.</span>
+              </div>
+              <div class="p-4 rounded-2xl bg-surface-container-low flex flex-col gap-2">
+                <span class="material-symbols-outlined text-tertiary text-[28px]">graphic_eq</span>
+                <span class="font-title-lg text-title-lg text-on-surface">Kinetic Sound</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">Live basslines paired with multi-octave acoustic vocal crescendos.</span>
+              </div>
+              <div class="p-4 rounded-2xl bg-surface-container-low flex flex-col gap-2">
+                <span class="material-symbols-outlined text-primary text-[28px]">shield</span>
+                <span class="font-title-lg text-title-lg text-on-surface">Safe For Kids</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">Decibel-friendly zones and supervised family hospitality lounges.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tracklist -->
+      <section class="w-full py-20 px-6 lg:px-12 bg-surface relative" id="tracklist">
+        <div class="max-w-7xl mx-auto flex flex-col gap-12">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div class="flex flex-col gap-2">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+                <span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Interactive Discography</span>
+              </div>
+              <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface">Top Hit Songs &amp; Tour Anthems</h2>
+              <p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+                Stream Luka Sky’s greatest global sensations. Tap play to test stadium audio soundwaves and view lyrics highlights.
+              </p>
+            </div>
+            <div class="flex items-center gap-4 bg-surface-container-high px-6 py-3 rounded-full shadow-lg self-start" id="active-player-banner">
+              <button class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center hover:scale-105 transition-transform" id="master-play-toggle" type="button" aria-label="Play or pause the selected track">
+                <span class="material-symbols-outlined text-[22px]">play_arrow</span>
+              </button>
+              <div class="flex flex-col">
+                <span class="font-title-lg text-title-lg text-on-surface text-sm" id="now-playing-title">Electric Glow</span>
+                <span class="font-label-md text-label-md text-tertiary">Currently Selected Track</span>
+              </div>
+              <div class="flex items-center gap-1 ml-2 text-primary">
+                <span class="material-symbols-outlined text-[20px]">volume_up</span>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Track 1 -->
+            <div class="track-card group relative bg-surface-container-low/90 backdrop-blur-md p-6 rounded-3xl flex flex-col justify-between gap-6 shadow-md hover:shadow-[0_12px_36px_rgba(124,58,237,0.35)] transition-all duration-300">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-center gap-4">
+                  <button class="track-play-btn w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-md" data-duration="3:28" data-track="Electric Glow" type="button" aria-label="Play Electric Glow">
+                    <span class="material-symbols-outlined text-[24px]">play_arrow</span>
+                  </button>
+                  <div class="flex flex-col">
+                    <span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Electric Glow</span>
+                    <span class="font-label-md text-label-md text-secondary">#1 Pop Anthem 2024</span>
+                  </div>
+                </div>
+                <span class="px-3 py-1 rounded-full bg-surface-container-highest font-label-caps text-label-caps text-primary">3:28</span>
+              </div>
+              <div class="flex items-end gap-1 h-10 px-2 py-1 bg-surface-container-lowest/80 rounded-xl">
+                <span class="w-full bg-primary h-3 rounded-full animate-pulse"></span>
+                <span class="w-full bg-tertiary h-8 rounded-full animate-pulse [animation-delay:100ms]"></span>
+                <span class="w-full bg-secondary h-6 rounded-full animate-pulse [animation-delay:200ms]"></span>
+                <span class="w-full bg-primary h-9 rounded-full animate-pulse [animation-delay:300ms]"></span>
+                <span class="w-full bg-tertiary h-4 rounded-full animate-pulse [animation-delay:150ms]"></span>
+                <span class="w-full bg-secondary h-10 rounded-full animate-pulse [animation-delay:250ms]"></span>
+                <span class="w-full bg-primary h-5 rounded-full animate-pulse [animation-delay:80ms]"></span>
+                <span class="w-full bg-tertiary h-7 rounded-full animate-pulse [animation-delay:180ms]"></span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <p class="font-body-sm text-body-sm text-on-surface-variant italic">"We light the night in neon rays, nothing can pull us away..."</p>
+                <div class="flex items-center justify-between pt-2">
+                  <span class="font-label-md text-label-md text-tertiary flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px]">equalizer</span> 240M Streams
+                  </span>
+                  <span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Crowd Opener</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Track 2 -->
+            <div class="track-card group relative bg-surface-container-low/90 backdrop-blur-md p-6 rounded-3xl flex flex-col justify-between gap-6 shadow-md hover:shadow-[0_12px_36px_rgba(255,176,205,0.35)] transition-all duration-300">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-center gap-4">
+                  <button class="track-play-btn w-12 h-12 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-md" data-duration="3:45" data-track="Starlight Forever" type="button" aria-label="Play Starlight Forever">
+                    <span class="material-symbols-outlined text-[24px]">play_arrow</span>
+                  </button>
+                  <div class="flex flex-col">
+                    <span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Starlight Forever</span>
+                    <span class="font-label-md text-label-md text-tertiary">Kid Choice Award Winner</span>
+                  </div>
+                </div>
+                <span class="px-3 py-1 rounded-full bg-surface-container-highest font-label-caps text-label-caps text-secondary">3:45</span>
+              </div>
+              <div class="flex items-end gap-1 h-10 px-2 py-1 bg-surface-container-lowest/80 rounded-xl">
+                <span class="w-full bg-secondary h-5 rounded-full animate-pulse"></span>
+                <span class="w-full bg-primary h-7 rounded-full animate-pulse [animation-delay:150ms]"></span>
+                <span class="w-full bg-tertiary h-9 rounded-full animate-pulse [animation-delay:80ms]"></span>
+                <span class="w-full bg-secondary h-4 rounded-full animate-pulse [animation-delay:220ms]"></span>
+                <span class="w-full bg-primary h-8 rounded-full animate-pulse [animation-delay:120ms]"></span>
+                <span class="w-full bg-tertiary h-6 rounded-full animate-pulse [animation-delay:280ms]"></span>
+                <span class="w-full bg-secondary h-10 rounded-full animate-pulse [animation-delay:190ms]"></span>
+                <span class="w-full bg-primary h-3 rounded-full animate-pulse [animation-delay:90ms]"></span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <p class="font-body-sm text-body-sm text-on-surface-variant italic">"Hold on to the dream you know, watch every little star glow..."</p>
+                <div class="flex items-center justify-between pt-2">
+                  <span class="font-label-md text-label-md text-tertiary flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px]">equalizer</span> 190M Streams
+                  </span>
+                  <span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Encore Finale</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Track 3 -->
+            <div class="track-card group relative bg-surface-container-low/90 backdrop-blur-md p-6 rounded-3xl flex flex-col justify-between gap-6 shadow-md hover:shadow-[0_12px_36px_rgba(76,215,246,0.35)] transition-all duration-300">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-center gap-4">
+                  <button class="track-play-btn w-12 h-12 rounded-full bg-tertiary-container text-on-tertiary-container flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-md" data-duration="2:56" data-track="Neon Galaxy" type="button" aria-label="Play Neon Galaxy">
+                    <span class="material-symbols-outlined text-[24px]">play_arrow</span>
+                  </button>
+                  <div class="flex flex-col">
+                    <span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Neon Galaxy</span>
+                    <span class="font-label-md text-label-md text-primary">Billboard Hot 100 #3</span>
+                  </div>
+                </div>
+                <span class="px-3 py-1 rounded-full bg-surface-container-highest font-label-caps text-label-caps text-tertiary">2:56</span>
+              </div>
+              <div class="flex items-end gap-1 h-10 px-2 py-1 bg-surface-container-lowest/80 rounded-xl">
+                <span class="w-full bg-tertiary h-8 rounded-full animate-pulse"></span>
+                <span class="w-full bg-secondary h-4 rounded-full animate-pulse [animation-delay:110ms]"></span>
+                <span class="w-full bg-primary h-10 rounded-full animate-pulse [animation-delay:230ms]"></span>
+                <span class="w-full bg-tertiary h-7 rounded-full animate-pulse [animation-delay:70ms]"></span>
+                <span class="w-full bg-secondary h-3 rounded-full animate-pulse [animation-delay:170ms]"></span>
+                <span class="w-full bg-primary h-8 rounded-full animate-pulse [animation-delay:290ms]"></span>
+                <span class="w-full bg-tertiary h-6 rounded-full animate-pulse [animation-delay:140ms]"></span>
+                <span class="w-full bg-secondary h-9 rounded-full animate-pulse [animation-delay:60ms]"></span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <p class="font-body-sm text-body-sm text-on-surface-variant italic">"Orbiting inside your world, watch the constellations swirl..."</p>
+                <div class="flex items-center justify-between pt-2">
+                  <span class="font-label-md text-label-md text-tertiary flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px]">equalizer</span> 145M Streams
+                  </span>
+                  <span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Radio Smash</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Track 4 -->
+            <div class="track-card group relative bg-surface-container-low/90 backdrop-blur-md p-6 rounded-3xl flex flex-col justify-between gap-6 shadow-md hover:shadow-[0_12px_36px_rgba(236,72,153,0.35)] transition-all duration-300">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-center gap-4">
+                  <button class="track-play-btn w-12 h-12 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-md" data-duration="3:12" data-track="Heartbeat Rhythm" type="button" aria-label="Play Heartbeat Rhythm">
+                    <span class="material-symbols-outlined text-[24px]">play_arrow</span>
+                  </button>
+                  <div class="flex flex-col">
+                    <span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Heartbeat Rhythm</span>
+                    <span class="font-label-md text-label-md text-secondary">Viral Dance Challenge</span>
+                  </div>
+                </div>
+                <span class="px-3 py-1 rounded-full bg-surface-container-highest font-label-caps text-label-caps text-secondary">3:12</span>
+              </div>
+              <div class="flex items-end gap-1 h-10 px-2 py-1 bg-surface-container-lowest/80 rounded-xl">
+                <span class="w-full bg-secondary h-9 rounded-full animate-pulse"></span>
+                <span class="w-full bg-primary h-6 rounded-full animate-pulse [animation-delay:130ms]"></span>
+                <span class="w-full bg-tertiary h-4 rounded-full animate-pulse [animation-delay:90ms]"></span>
+                <span class="w-full bg-secondary h-8 rounded-full animate-pulse [animation-delay:210ms]"></span>
+                <span class="w-full bg-primary h-10 rounded-full animate-pulse [animation-delay:160ms]"></span>
+                <span class="w-full bg-tertiary h-5 rounded-full animate-pulse [animation-delay:270ms]"></span>
+                <span class="w-full bg-secondary h-7 rounded-full animate-pulse [animation-delay:110ms]"></span>
+                <span class="w-full bg-primary h-3 rounded-full animate-pulse [animation-delay:50ms]"></span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <p class="font-body-sm text-body-sm text-on-surface-variant italic">"Left, right, step in time, feeling that electric line..."</p>
+                <div class="flex items-center justify-between pt-2">
+                  <span class="font-label-md text-label-md text-tertiary flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px]">equalizer</span> 120M Streams
+                  </span>
+                  <span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Dance Break</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Track 5 -->
+            <div class="track-card group relative bg-surface-container-low/90 backdrop-blur-md p-6 rounded-3xl flex flex-col justify-between gap-6 shadow-md hover:shadow-[0_12px_36px_rgba(76,215,246,0.35)] transition-all duration-300">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-center gap-4">
+                  <button class="track-play-btn w-12 h-12 rounded-full bg-tertiary-container text-on-tertiary-container flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-md" data-duration="3:38" data-track="Rainbow Skies" type="button" aria-label="Play Rainbow Skies">
+                    <span class="material-symbols-outlined text-[24px]">play_arrow</span>
+                  </button>
+                  <div class="flex flex-col">
+                    <span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Rainbow Skies</span>
+                    <span class="font-label-md text-label-md text-tertiary">Acoustic Summer Single</span>
+                  </div>
+                </div>
+                <span class="px-3 py-1 rounded-full bg-surface-container-highest font-label-caps text-label-caps text-tertiary">3:38</span>
+              </div>
+              <div class="flex items-end gap-1 h-10 px-2 py-1 bg-surface-container-lowest/80 rounded-xl">
+                <span class="w-full bg-tertiary h-4 rounded-full animate-pulse"></span>
+                <span class="w-full bg-primary h-7 rounded-full animate-pulse [animation-delay:140ms]"></span>
+                <span class="w-full bg-secondary h-5 rounded-full animate-pulse [animation-delay:100ms]"></span>
+                <span class="w-full bg-tertiary h-6 rounded-full animate-pulse [animation-delay:230ms]"></span>
+                <span class="w-full bg-primary h-9 rounded-full animate-pulse [animation-delay:120ms]"></span>
+                <span class="w-full bg-secondary h-4 rounded-full animate-pulse [animation-delay:260ms]"></span>
+                <span class="w-full bg-tertiary h-8 rounded-full animate-pulse [animation-delay:170ms]"></span>
+                <span class="w-full bg-primary h-3 rounded-full animate-pulse [animation-delay:80ms]"></span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <p class="font-body-sm text-body-sm text-on-surface-variant italic">"After the storm the colors shine, you’ll be alright in time..."</p>
+                <div class="flex items-center justify-between pt-2">
+                  <span class="font-label-md text-label-md text-tertiary flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px]">equalizer</span> 95M Streams
+                  </span>
+                  <span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Acoustic Section</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Track 6 -->
+            <div class="track-card group relative bg-surface-container-low/90 backdrop-blur-md p-6 rounded-3xl flex flex-col justify-between gap-6 shadow-md hover:shadow-[0_12px_36px_rgba(124,58,237,0.35)] transition-all duration-300">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex items-center gap-4">
+                  <button class="track-play-btn w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-md" data-duration="3:15" data-track="Supernova Dream" type="button" aria-label="Play Supernova Dream">
+                    <span class="material-symbols-outlined text-[24px]">play_arrow</span>
+                  </button>
+                  <div class="flex flex-col">
+                    <span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Supernova Dream</span>
+                    <span class="font-label-md text-label-md text-secondary">Latest 2025 Release</span>
+                  </div>
+                </div>
+                <span class="px-3 py-1 rounded-full bg-surface-container-highest font-label-caps text-label-caps text-primary">3:15</span>
+              </div>
+              <div class="flex items-end gap-1 h-10 px-2 py-1 bg-surface-container-lowest/80 rounded-xl">
+                <span class="w-full bg-primary h-10 rounded-full animate-pulse"></span>
+                <span class="w-full bg-secondary h-8 rounded-full animate-pulse [animation-delay:90ms]"></span>
+                <span class="w-full bg-tertiary h-6 rounded-full animate-pulse [animation-delay:190ms]"></span>
+                <span class="w-full bg-primary h-9 rounded-full animate-pulse [animation-delay:130ms]"></span>
+                <span class="w-full bg-secondary h-4 rounded-full animate-pulse [animation-delay:250ms]"></span>
+                <span class="w-full bg-tertiary h-8 rounded-full animate-pulse [animation-delay:70ms]"></span>
+                <span class="w-full bg-primary h-7 rounded-full animate-pulse [animation-delay:160ms]"></span>
+                <span class="w-full bg-secondary h-5 rounded-full animate-pulse [animation-delay:110ms]"></span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <p class="font-body-sm text-body-sm text-on-surface-variant italic">"We ignite the stratosphere, nothing holds us back right here..."</p>
+                <div class="flex items-center justify-between pt-2">
+                  <span class="font-label-md text-label-md text-tertiary flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px]">equalizer</span> 45M Streams
+                  </span>
+                  <span class="font-label-caps text-label-caps text-secondary font-bold uppercase">Trending #1</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Production highlights -->
+      <section class="w-full py-20 px-6 lg:px-12 bg-surface-container-lowest relative overflow-hidden">
+        <div class="max-w-7xl mx-auto flex flex-col gap-14">
+          <div class="text-center max-w-2xl mx-auto flex flex-col gap-3">
+            <span class="font-label-caps text-label-caps text-tertiary uppercase tracking-widest">Unrivaled Arena Production</span>
+            <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface">Experience The Live Spectacle</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Engineered for awe. Every ticket holder becomes an active part of the live stage performance with synchronized audience technology.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-surface-container-low p-8 rounded-3xl flex flex-col justify-between gap-6 relative overflow-hidden shadow-lg group">
+              <div class="flex flex-col gap-3">
+                <div class="w-14 h-14 rounded-2xl bg-secondary-container flex items-center justify-center text-on-secondary">
+                  <span class="material-symbols-outlined text-[30px]">watch</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface">Included LED Wristbands</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Every stadium ticket holder receives a free synchronized radio-frequency light wristband upon entry that flashes in sync with Luka’s beats.
+                </p>
+              </div>
+              <div class="flex items-center gap-2 pt-2">
+                <span class="px-3 py-1 rounded-full bg-secondary-container/40 text-secondary font-label-md text-label-md">100% Free with Entry</span>
+                <span class="font-label-caps text-label-caps text-on-surface-variant">Recyclable Tech</span>
+              </div>
+            </div>
+            <div class="bg-surface-container-low p-8 rounded-3xl flex flex-col justify-between gap-6 relative overflow-hidden shadow-lg group">
+              <div class="flex flex-col gap-3">
+                <div class="w-14 h-14 rounded-2xl bg-primary-container flex items-center justify-center text-on-primary">
+                  <span class="material-symbols-outlined text-[30px]">flare</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface">360° Neon Lasers &amp; Confetti</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Featuring 120 synchronized prism lasers, non-toxic cold pyrotechnics, and stadium-wide biodegradable confetti storms during the grand finale.
+                </p>
+              </div>
+              <div class="flex items-center gap-2 pt-2">
+                <span class="px-3 py-1 rounded-full bg-primary-container/40 text-primary font-label-md text-label-md">Safe Indoor FX</span>
+                <span class="font-label-caps text-label-caps text-on-surface-variant">Zero Smoke Haze</span>
+              </div>
+            </div>
+            <div class="bg-surface-container-low p-8 rounded-3xl flex flex-col justify-between gap-6 relative overflow-hidden shadow-lg group">
+              <div class="flex flex-col gap-3">
+                <div class="w-14 h-14 rounded-2xl bg-tertiary-container flex items-center justify-center text-on-tertiary">
+                  <span class="material-symbols-outlined text-[30px]">group</span>
+                </div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface">Surprise Stage B &amp; Guests</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Luka flies across the arena onto the 360-degree Stage B for intimate acoustic duets with special guest pop creators at every single stop.
+                </p>
+              </div>
+              <div class="flex items-center gap-2 pt-2">
+                <span class="px-3 py-1 rounded-full bg-tertiary-container/40 text-tertiary font-label-md text-label-md">Unannounced Guests</span>
+                <span class="font-label-caps text-label-caps text-on-surface-variant">Closer to Fans</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA banner -->
+      <section class="w-full py-16 px-6 lg:px-12 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto bg-gradient-to-r from-primary-container/90 via-secondary-container/90 to-tertiary-container/90 p-8 sm:p-12 lg:p-16 rounded-[2.5rem] relative shadow-[0_20px_60px_rgba(124,58,237,0.4)] flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="flex flex-col gap-4 text-left max-w-2xl">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-lowest/40 backdrop-blur-md w-fit">
+              <span class="material-symbols-outlined text-tertiary text-[18px]">airplane_ticket</span>
+              <span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface">Instant E-Delivery Available</span>
+            </div>
+            <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface font-extrabold leading-tight">
+              Ready to Witness The Magic Live?
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface/90">
+              Arena seats and VIP Soundcheck passes are selling out worldwide. Choose your city, select your seating tier, and receive your verified QR gate tickets in your email instantly.
+            </p>
+          </div>
+          <div class="shrink-0 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+            <a class="inline-flex items-center justify-center gap-3 px-8 py-5 rounded-full bg-on-surface text-surface-container-lowest hover:bg-on-surface/90 font-label-lg text-label-lg uppercase tracking-wider font-extrabold shadow-2xl hover:scale-105 transition-all text-center" href="tickets.html">
+              <span>Grab Your Tickets Now</span>
+              <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <script>
+      // Play/Pause audio emulation for the song cards
+      document.addEventListener('DOMContentLoaded', () => {
+        const playButtons = document.querySelectorAll('.track-play-btn');
+        const masterPlayToggle = document.getElementById('master-play-toggle');
+        const nowPlayingTitle = document.getElementById('now-playing-title');
+        let currentlyPlaying = null;
+        let isPlaying = false;
+
+        playButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const trackTitle = btn.getAttribute('data-track');
+            const iconSpan = btn.querySelector('.material-symbols-outlined');
+
+            if (currentlyPlaying === trackTitle && isPlaying) {
+              isPlaying = false;
+              iconSpan.textContent = 'play_arrow';
+              if (masterPlayToggle) masterPlayToggle.querySelector('.material-symbols-outlined').textContent = 'play_arrow';
+            } else {
+              playButtons.forEach(b => {
+                b.querySelector('.material-symbols-outlined').textContent = 'play_arrow';
+              });
+              currentlyPlaying = trackTitle;
+              isPlaying = true;
+              iconSpan.textContent = 'pause';
+              if (nowPlayingTitle) nowPlayingTitle.textContent = trackTitle;
+              if (masterPlayToggle) masterPlayToggle.querySelector('.material-symbols-outlined').textContent = 'pause';
+            }
+          });
+        });
+
+        if (masterPlayToggle) {
+          masterPlayToggle.addEventListener('click', () => {
+            const iconSpan = masterPlayToggle.querySelector('.material-symbols-outlined');
+            if (isPlaying) {
+              isPlaying = false;
+              iconSpan.textContent = 'play_arrow';
+              playButtons.forEach(b => b.querySelector('.material-symbols-outlined').textContent = 'play_arrow');
+            } else {
+              isPlaying = true;
+              iconSpan.textContent = 'pause';
+              const defaultTrackBtn = document.querySelector('.track-play-btn[data-track="' + (currentlyPlaying || 'Electric Glow') + '"]');
+              if (defaultTrackBtn) {
+                defaultTrackBtn.querySelector('.material-symbols-outlined').textContent = 'pause';
+              }
+            }
+          });
+        }
+      });
+    </script>
+  </main>
+
+  <footer class="w-full bg-surface-container-lowest text-on-surface-variant">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl flex flex-col gap-space-xl">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg items-start">
+        <div class="md:col-span-4 flex flex-col gap-space-md">
+          <div class="flex items-center gap-space-sm">
+            <span class="font-headline-sm text-headline-sm text-on-surface">LUKA LIVE</span>
+            <span class="bg-secondary-container px-space-sm py-0.5 rounded-full font-label-caps text-label-caps text-on-secondary-container uppercase">Official Tour</span>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Step into the electric universe of The Starlight Tour. Live stadium dates, immersive VIP front-row passes, and ultra-fast encrypted instant e-ticket delivery.</p>
+          <div class="flex items-center gap-space-sm pt-space-xs">
+            <div class="inline-flex items-center gap-space-xs bg-surface-container px-space-md py-space-xs rounded-full">
+              <span class="material-symbols-outlined text-on-surface text-[16px]">change_history</span>
+              <span class="font-label-md text-label-md text-on-surface font-semibold">Deployed on Vercel</span>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-4 flex flex-col gap-space-sm">
+          <h3 class="font-title-lg text-title-lg text-on-surface">Parent &amp; Kid Safety Notice</h3>
+          <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">All arena zones are monitored by verified Starlight crew. Sensory-friendly seating options and ear protection pods are available at all registered tour venues for younger pop music fans.</p>
+          <div class="flex items-center gap-space-sm text-tertiary font-label-md text-label-md">
+            <span class="material-symbols-outlined text-[18px]">verified_user</span>
+            <span>Certified Family Safe Arena Protocol</span>
+          </div>
+        </div>
+        <div class="md:col-span-4 flex flex-col gap-space-md">
+          <h3 class="font-title-lg text-title-lg text-on-surface">Instant Tour Access Drops</h3>
+          <p class="font-body-sm text-body-sm text-on-surface-variant">Be the first alerted to surprise stage B access &amp; exclusive merchandise presales.</p>
+          <form class="newsletter-form flex items-center bg-surface-container-low p-1.5 rounded-full">
+            <label class="sr-only" for="footer-email-home">Email address</label>
+            <input class="bg-transparent px-space-md py-space-xs text-on-surface placeholder:text-outline focus:outline-none w-full font-body-sm text-body-sm" id="footer-email-home" placeholder="Enter your VIP email..." type="email"/>
+            <button class="bg-gradient-to-r from-primary-container to-secondary-container text-on-primary-container px-space-lg py-space-xs rounded-full font-label-lg text-label-lg font-bold shrink-0 shadow-[0_0_20px_rgba(236,72,153,0.4)] hover:brightness-110 transition-all" type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-lg">
+        <div class="flex items-center gap-space-md" aria-hidden="true">
+          <span class="p-space-xs rounded-full bg-surface-container text-on-surface-variant"><span class="material-symbols-outlined text-[20px]">podcasts</span></span>
+          <span class="p-space-xs rounded-full bg-surface-container text-on-surface-variant"><span class="material-symbols-outlined text-[20px]">headset</span></span>
+          <span class="p-space-xs rounded-full bg-surface-container text-on-surface-variant"><span class="material-symbols-outlined text-[20px]">share</span></span>
+        </div>
+        <p class="font-body-sm text-body-sm text-on-surface-variant text-center sm:text-right">© 2025 LUKA LIVE World Tour &amp; Starlight Production Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
